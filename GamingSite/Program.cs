@@ -1,7 +1,10 @@
+using JsonFileGamesService;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<JsonFileGameService>();
 
 var app = builder.Build();
 
