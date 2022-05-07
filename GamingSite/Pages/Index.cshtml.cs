@@ -9,13 +9,12 @@ namespace GamingSite.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         public JsonFileGameService GameService;
-        public IEnumerable<Game> games { get; private set; }
+        public IEnumerable<Game>? games { get; private set; }
 
 
 
-#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+
         public IndexModel(ILogger<IndexModel> logger,
-#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
            JsonFileGameService gamesService)
         {
             _logger = logger;
@@ -24,7 +23,7 @@ namespace GamingSite.Pages
 
         public void OnGet()
         {
-            games = (IEnumerable<Game>)GameService.GetProducts();
+            games = GameService.GetProducts();
         }
     }
 }

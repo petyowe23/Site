@@ -1,122 +1,39 @@
 [
   {
-    "id": "jenlooper-cactus",
-    "maker": "@jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567048-13938600-aa33-11e9-9cfd-712191013192.jpeg",
-    "url": "https://www.hackster.io/agent-hawking-1/the-quantified-cactus-an-easy-plant-soil-moisture-sensor-e65393",
-    "title": "The Quantified Cactus: An Easy Plant Soil Moisture Sensor",
-    "description": "This project is a good learning project to get comfortable with soldering and programming an Arduino."
+
+    "maker": "Valve",
+    "img": "https://cdn.akamai.steamstatic.com/half-life.com/images/halflife/halflife_3.jpg",
+    "url": "https://www.half-life.com/bg/halflife",
+    "title": "Half-Life",
+    "description": "Game is created at 1998 year.Its first-person shooter developed by Valve and published by Sierra Studios for Windows.It was Valve's debut product and first game of Half-Life series.Players start in role as Gordon Freeman,a scientist who must escape The Black Mesa Research Facility after it is invaded by aliens.The gameplay consists of combat,exploration and puzzle-solving.Unlike other games of its time,the player has almost uninterrupted control of the player character,and the story is mostly in scripted sequences rather thatn cutscenes.Valve co-founder Gabe Newell said that the team was disappointed with the lack of innovation in the FPS(First-Person Shooter)genre,and aimed to create an immersive world rather than a shooting gallery.Half-Life received acclaim for its graphics, gameplay, and narrative, and won over 50 PC 'Game of the Year awards'. It is considered one of the most influential FPS games and one of the best video games ever made. By 2008, it had sold over nine million copies. It was followed by the expansion packs Opposing Force (1999) and Blue Shift (2001), developed by Gearbox Software. It was ported to the PlayStation 2 in 2001, along with the expansion Half-Life: Decay, and to OS X and Linux in 2013. Valve ported Half-Life to its Source engine as Half-Life: Source in 2004. In 2020, Crowbar Collective released an unofficial remake, Black Mesa."
+    
+      
   },
   {
-    "id": "jenlooper-light",
-    "maker": "jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567049-13938600-aa33-11e9-9c69-a4184bf8e524.jpeg",
-    "url": "https://www.hackster.io/agent-hawking-1/book-light-dee7e4",
-    "title": "A beautiful switch-on book light",
-    "description": "Use craft items you have around the house, plus two LEDs and a LilyPad battery holder, to create a useful book light for reading in the dark."
+
+    "maker": "Valve",
+    "img": "https://highxtar.com/wp-content/uploads/2020/06/highxtar-counter-strike-1.6.jpg",
+    "url": "https://store.steampowered.com/app/10/CounterStrike/",
+    "title": "Counter Strike 1.6",
+    "description": " Game is a series of multiplayer first-person shooter video games in which teams of terrorists battle to perpetrate an act of terror (bombing, hostage-taking, assassination) while counter-terrorists try to prevent it (bomb defusal, hostage rescue, escort mission). The series began on Windows in 1999 with the release of the first game, Counter-Strike. It was initially released as a modification (mod) for Half-Life that was designed by Minh 'Gooseman' Le and Jess 'Cliffe'Cliffe before the rights to the mod's intellectual property were acquired by Valve, the developers of Half-Life, who then turned Counter-Strike into a retail product.The original Counter-Strike was followed by Counter-Strike: Condition Zero, developed by Turtle Rock Studios and released in March 2004. A previous version of Condition Zero that was developed by Ritual Entertainment was released alongside it as Condition Zero: Deleted Scenes. Eight months later, Valve released Counter-Strike: Source, a remake of the original Counter-Strike and the first in the series to run on Valve's newly created Source engine.[4] The fourth game in the main series, Counter-Strike: Global Offensive, was released by Valve in 2012 for Windows, OS X, Xbox 360, and PlayStation 3. Hidden Path Entertainment, who worked on Counter-Strike: Source post-release, helped to develop the game alongside Valve.There have been several third-party spin-off titles created for Asian markets over the years. These include the Counter-Strike Online series, Counter-Strike Neo, and Counter-Strike Nexon: Studio."
   },
   {
-    "id": "jenlooper-lightshow",
-    "maker": "@jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567053-13938600-aa33-11e9-9780-104fe4019659.png",
-    "url": "https://www.hackster.io/agent-hawking-1/bling-your-laptop-with-an-internet-connected-light-show-30e4db",
-    "title": "Bling your Laptop with an Internet-Connected Light Show",
-    "description": "Create a web-connected light-strip API controllable from your website, using the Particle.io."
+
+    "maker": "Blizzard",
+    "img": "https://img.usfine.biz/uploads/201906/thumb_efa3f62350b2351a8986eef5fb362530.png",
+    "url": "https://worldofwarcraft.com/en-us/",
+    "title": "World of Warcraft",
+    "description": " Game is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. Set in the Warcraft fantasy universe, World of Warcraft takes place within the world of Azeroth, approximately four years after the events of the previous game in the series, Warcraft III: The Frozen Throne. The game was announced in 2001, and was released for the 10th anniversary of the Warcraft franchise on November 23, 2004. Since launch, World of Warcraft has had eight major expansion packs: The Burning Crusade (2007), Wrath of the Lich King (2008), Cataclysm (2010), Mists of Pandaria (2012), Warlords of Draenor (2014), Legion (2016), Battle for Azeroth (2018), and Shadowlands (2020), with a ninth, Dragonflight, currently in development.Similar to other MMORPGs, the game allows players to create a character avatar and explore an open game world in third- or first-person view, exploring the landscape, fighting various monsters, completing quests, and interacting with non-player characters (NPCs) or other players. The game encourages players to work together to complete quests, enter dungeons and engage in player versus player (PvP) combat, however the game can also be played solo without interacting with others. The game primarily focuses on character progression, in which players earn experience points to level up their character to make them more powerful and buy and sell items using in-game currency to acquire better equipment, among other game systems.World of Warcraft was a major critical and commercial success upon its original release in 2004 and quickly became the most popular MMORPG of all time, reaching a peak of 12 million subscribers in 2010. The game had over one hundred million registered accounts by 2014 and by 2017, had grossed over $9.23 billion in revenue, making it one of the highest-grossing video game franchises of all time. The game has been cited by gaming journalists as the greatest MMORPG of all time and one of the greatest video games of all time and has also been noted for its long lifespan, continuing to receive developer support and expansion packs over 15 years since its initial release.In 2019, a vanilla version of the game titled World of Warcraft Classic was launched, allowing players to experience the base game before any of its expansions launched."
   },
   {
-    "id": "jenlooper-survival",
-    "maker": "jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567051-13938600-aa33-11e9-8ae7-0b5c19aafab4.jpeg",
-    "url": "https://www.hackster.io/agent-hawking-1/create-a-compact-survival-kit-38bfdb",
-    "title": "Create a Compact Survival Kit with LED Track Lighting",
-    "description": "Use an Altoids tin with Chibitronics sticker LEDs to create a light-up compact that doubles as a survival kit for the young hipster"
-  },
-  {
-    "id": "sailorhg-bubblesortpic",
-    "maker": "sailorhg",
-    "img": "https://user-images.githubusercontent.com/41929050/61567054-13938600-aa33-11e9-9163-eec98e239b7a.png",
-    "url": "https://twitter.com/sailorhg/status/1090107740049952770",
-    "title": "Bubblesort Visualization",
-    "description": "Visualization of sailor scouts sorted by bubblesort algorithm by their planet's distance from the sun"
-  },
-  {
-    "id": "sailorhg-corsage",
-    "maker": "sailorhg",
-    "img": "https://user-images.githubusercontent.com/41929050/61567055-142c1c80-aa33-11e9-96ff-9fbac6413625.png",
-    "url": "https://twitter.com/sailorhg/status/1090113666911891456",
-    "title": "Light-up Corsage",
-    "description": "Light-up corsage I made with my summer intern."
-  },
-  {
-    "id": "sailorhg-kit",
-    "maker": "sailorhg",
-    "img": "https://user-images.githubusercontent.com/41929050/61567056-142c1c80-aa33-11e9-8682-10065d338145.png",
-    "url": "https://twitter.com/sailorhg/status/1090122822007963648",
-    "title": "Pastel hardware kit",
-    "description": "Pastel hardware kits complete with custom manufactured pastel alligator clips."
-  },
-  {
-    "id": "sailorhg-led",
-    "maker": "sailorhg",
-    "img": "https://user-images.githubusercontent.com/41929050/61567052-13938600-aa33-11e9-9a88-cd842073ba44.jpg",
-    "url": "https://twitter.com/sailorhg/status/1090117277540745216",
-    "title": "Heart-shaped LED",
-    "description": "custom molded heart shaped LED with sprinkles."
-  },
-  {
-    "id": "selinazawacki-soi-shirt",
-    "maker": "selinazawacki",
-    "img": "https://user-images.githubusercontent.com/41929050/61567060-142c1c80-aa33-11e9-8188-5a4803844a9e.png",
-    "url": "https://www.instagram.com/p/BNvESj-j8PI/",
-    "title": "Black Sweatshirt",
-    "description": "Black sweatshirt hoody with the Sick of the Internet logo."
-  },
-  {
-    "id": "selinazawacki-soi-pins",
-    "maker": "selinazawacki",
-    "img": "https://user-images.githubusercontent.com/41929050/61567059-142c1c80-aa33-11e9-939b-2ecf4492786d.png",
-    "url": "https://www.instagram.com/p/BNm6hZzDoEF/",
-    "title": "Sick of the Internet Pins",
-    "description": "Still some time to enter the pin/sticker giveaway! "
-  },
-  {
-    "id": "vogueandcode-hipster-dev-bro",
-    "maker": "vogueandcode",
-    "img": "https://user-images.githubusercontent.com/41929050/61567061-14c4b300-aa33-11e9-9fee-63ff2c0c9823.png",
-    "url": "https://www.vogueandcode.com/shop/hipster-dev-bro",
-    "title": "Hipster Dev",
-    "description": "Hipster Dev is busy coding away while styled in a camo jacket and orange beanie."
-  },
-  {
-    "id": "vogueandcode-pretty-girls-code-tee",
-    "maker": "vogueandcode",
-    "img": "https://user-images.githubusercontent.com/41929050/61567062-14c4b300-aa33-11e9-9dcd-8bfed4ece810.png",
-    "url": "https://www.vogueandcode.com/shop/pretty-girls-code-tee",
-    "title": "Pretty Girls Code Tee",
-    "description": "Everyone’s favorite design is finally here on a tee! The Pretty Girls Code crew-neck tee is available in a soft pink with red writing."
-  },
-  {
-    "id": "vogueandcode-ruby-sis-2",
-    "maker": "vogueandcode",
-    "img": "https://user-images.githubusercontent.com/41929050/61567063-14c4b300-aa33-11e9-8515-bcb866da9ea3.png",
-    "url": "https://www.vogueandcode.com/shop/ruby-sis-2",
-    "title": "Ruby Sis",
-    "description": "Styled in a dashiki, Ruby Sis is listening to music while coding in her favorite language, Ruby!"
-  },
-  {
-    "id": "selinazawacki-moon",
-    "maker": "selinazawacki",
-    "img": "https://user-images.githubusercontent.com/41929050/61567057-142c1c80-aa33-11e9-9781-9e442418eaab.png",
-    "url": "https://www.instagram.com/p/BFktVYPinKQ/",
-    "title": "Holographic Dark Moon Necklace",
-    "description": "Not sure if I'll be making more, get it while I have it in the store."
-  },
-  {
-    "id": "selinazawacki-shirt",
-    "maker": "selinazawacki",
-    "img": "https://user-images.githubusercontent.com/41929050/61567058-142c1c80-aa33-11e9-89fb-b4f30d84d69d.png",
-    "url": "https://www.instagram.com/p/BEXlpiZCnJ3/",
-    "title": "Floppy Crop",
-    "description": "Used up the Diskette fabric today to make 2 of these crops."
+
+    "maker": "Riot Games",
+    "img": "https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png",
+    "url": "https://www.leagueoflegends.com/en-gb/",
+    "title": "League of Legends",
+    "description": " Game commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games. Inspired by Defense of the Ancients, a custom map for Warcraft III, Riot's founders sought to develop a stand-alone game in the same genre. Since its release in October 2009, the game has been free-to-play and is monetized through purchasable character customization. The game is available for Microsoft Windows and macOS.In the game, two teams of five players battle in player versus player combat, each team occupying and defending their half of the map. Each of the ten players controls a character, known as a 'champion', with unique abilities and differing styles of play. During a match, champions become more powerful by collecting experience points, earning gold, and purchasing items to defeat the opposing team. In the game's main mode, Summoner's Rift, a team wins by pushing through to the enemy base and destroying their 'Nexus', a large structure located within.League of Legends received generally positive reviews,critics highlighted its accessibility, character designs, and production value. The game's long lifespan has resulted in a critical reappraisal, with reviews trending positively,the negative and abusive in-game behavior of its players, criticized since early in the game's lifetime, persists despite Riot's attempts to fix the problem. In 2019, the game regularly peaked at eight million concurrent players, and its popularity has led to tie-ins such as music videos, comic books, short stories, and an animated series, Arcane. Its success has also spawned several spin-off video games, including a mobile version, a digital collectible card game and a turn-based role-playing game, among others. A massively multiplayer online role-playing game based on the property is in development.Regularly cited as the world's largest esport, the game has an international competitive scene consisting of 12 leagues. These domestic leagues culminate in the annual League of Legends World Championship. The 2019 event registered over 100 million unique viewers, peaking at a concurrent viewership of 44 million. Domestic and international events have been broadcast on livestreaming websites such as Twitch, YouTube, Bilibili, and on cable television sports channel ESPN."
   }
+ 
+  
+  
 ]

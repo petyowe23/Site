@@ -6,13 +6,22 @@
 
 <div class="text-center">
     <h1 class="display-4">GamePedia</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-@foreach(var game in Model.games)
+    </div>
+<div class="card-columns">
+@foreach (var game in Model.games)
 {
-        <h2> @game.Title</h2>
-        <p> 
-         <img width="150" src="@game.Image"> 
-          @game.Description   
-        </p>
-};
+          <div class="card-img" style= "background-image: url('@game.Image ');">
+        </div>
+        <div class="card-body">
+         <a  asp-area="" asp-page="/Game" asp-route-title="@game.Title">@game.Title</a> 
+        </div>
+}
+</div>
+ <a href="https://www.half-life.com/bg/halflife" target="_blank">If u want to buy Half-Life!</a>
+
+ <a href="https://store.steampowered.com/app/10/CounterStrike/" target="_blank">If u want to buy Counter-Strike!</a>
+
+ <a href="https://worldofwarcraft.com/en-us/" target="_blank">If u want to buy World of Warcraft!</a>
+
+ <a href="https://www.leagueoflegends.com/en-gb/" target="_blank">If u want to download League of Legends!</a>
+

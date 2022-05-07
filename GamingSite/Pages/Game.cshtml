@@ -1,0 +1,35 @@
+﻿ @page
+@model GamingSite.Pages.GameModel
+@{
+
+        ViewData["Title"] = "Game Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4"> @Model.game.Title</h1>
+    </div>
+<div> 
+    <img class="" src="@Model.game.Image" width="1325" height="300">
+     
+    <p>
+        
+    </p>
+    <b>
+    @Model.game.Title
+    </b>
+    <p></p>
+    <p>
+    <b>Developed by:@Model.game.maker</b>
+    </p>
+<b>
+ <em>
+ @Model.game.Description
+ </em>
+</b>
+<p></p>
+
+  
+     
+
+</div>
+ 

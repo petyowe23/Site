@@ -1,7 +1,7 @@
 ﻿using Games;
 using System.Text.Json;
 
-namespace JsonFileGamesService 
+namespace JsonFileGamesService
 {
 
     public class JsonFileGameService
@@ -18,20 +18,88 @@ namespace JsonFileGamesService
             get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "game.json"); }
         }
 
-        public IEnumerable<Game> GetProducts()
+        public IEnumerable<Game>? GetProducts()
         {
             using (var jsonFileReader = File.OpenText(JsonFileName))
             {
-#pragma warning disable CS8603 // Possible null reference return.
+
                 return JsonSerializer.Deserialize<Game[]>(jsonFileReader.ReadToEnd(),
                     new JsonSerializerOptions
                     {
                         PropertyNameCaseInsensitive = true
                     });
-#pragma warning restore CS8603 // Possible null reference return.
-            }
-        }
-    }
 
+            }
+
+        }
+        public Game? GetProductByTitle(string title)
+        {
+            using (var jsonFileReader = File.OpenText(JsonFileName))
+            {
+
+                var games = JsonSerializer.Deserialize<List<Game>>(jsonFileReader.ReadToEnd(),
+                    new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
+                foreach (var game in games)
+                {
+                    if (game.Title == title)
+                    {
+                        return game;
+                    }
+
+                }
+                return null;
+            }
+
+        }
+        public Game? GetProductByDescription(string description)
+        {
+            using (var jsonFileReader = File.OpenText(JsonFileName))
+            {
+                var games = JsonSerializer.Deserialize<List<Game>>(jsonFileReader.ReadToEnd(),
+                    new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
+                foreach (var game in games)
+                {
+                    if (game.Description == description)
+                    {
+                        return game;
+                    }
+
+                }
+                return null;
+
+            }
+
+        }
+        public Game? GetProductByMaker(string maker)
+        {
+            using (var jsonFileReader = File.OpenText(JsonFileName))
+            {
+                var games = JsonSerializer.Deserialize<List<Game>>(jsonFileReader.ReadToEnd(),
+                    new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
+                foreach (var game in games)
+                {
+                    if (game.maker == maker)
+                    {
+                        return game;
+                    }
+
+                }
+                return null;
+
+            }
+
+        }
+
+        
+    }
 }
     
