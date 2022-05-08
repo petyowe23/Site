@@ -87,7 +87,7 @@ namespace JsonFileGamesService
                     });
                 foreach (var game in games)
                 {
-                    if (game.maker == maker)
+                    if (game.Maker == maker)
                     {
                         return game;
                     }
