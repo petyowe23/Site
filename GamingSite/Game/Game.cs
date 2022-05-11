@@ -6,11 +6,9 @@ namespace Games
     public class Game
     {
       
-        public string? maker { get; set; }
+        public string? Maker { get; set; }
 
-        [JsonPropertyName("img")]
-        
-        public string? Image { get; set; }
+        public List<string>? Images { get; set; }
         public string? Url { get; set; }
         public string? Title { get; set; }
         public string? Description { get; set; }
