@@ -6,17 +6,14 @@
 
 }
 
-<div class="text-center">
-    <h1 class="display-4"> @Model.game.Title</h1>
-</div>
 <div class="card mb-3">
    
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel " >
       <div class="carousel-inner">
           @foreach (var image in Model.game.Images)
 {
                 <div class="carousel-item @(Model.game.Images.IndexOf(image)!=0? "":"active")" data-bs-interval="2000">
-                    <img src="@image" class="d-block w-100" alt="">
+                    <img src="@image " class="d-block " alt="" style="width:50%; margin:auto">
         </div>
 
 }
@@ -43,7 +40,7 @@
 
         <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  About Dialog
+  More info!
 </button>
 
 <!-- Modal -->
@@ -51,11 +48,11 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">About Modal Title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Info Source:</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Hello this is my about dialog!
+     More info for games:https://www.fandom.com/
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
