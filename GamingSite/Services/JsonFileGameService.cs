@@ -98,7 +98,28 @@ namespace JsonFileGamesService
             }
 
         }
-        
+        public Game? GetProductByTrailer(string trailer)
+        {
+            using (var jsonFileReader = File.OpenText(JsonFileName))
+            {
+                var games = JsonSerializer.Deserialize<List<Game>>(jsonFileReader.ReadToEnd(),
+                    new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
+                foreach (var game in games)
+                {
+                    if (game.Trailer == trailer)
+                    {
+                        return game;
+                    }
+
+                }
+                return null;
+
+            }
+
+        }
 
     }
 }

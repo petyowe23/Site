@@ -4,9 +4,7 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">GamePedia</h1>
-    </div>
+<
 
 <div class="row row-cols-1 row-cols-md-3 g-4"> </div>>
 
@@ -14,14 +12,14 @@
 {
   <div class="col">
     <div class="card h-100">
-      <img src="@game.Images[0]" class="card-img-top" alt=""  width: 50%;
+      <img src="@game.Images[0]" class="card-img-top" alt=""  width: 10%;
    margin: auto;>
       <div class="card-body">
         <a  asp-area="" asp-page="/Game" asp-route-title="@game.Title"><h5 class="card-title">@game.Title</h5></a>
 
       </div>
       <div class="card-footer">
-        <small class="text-muted"><a class="btn btn-outline-primary btn-sm sticky-bottom" href="https://www.half-life.com/bg/halflife" target="_blank">Buy the Game</a></small>
+        <small class="text-muted"><a class="btn btn-outline-primary btn-sm sticky-bottom" href="@game.buyLink" target="_blank">Buy the Game</a></small>
       </div>
     </div>
   </div>
