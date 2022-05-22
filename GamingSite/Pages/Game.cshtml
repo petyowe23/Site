@@ -8,7 +8,7 @@
 
 <div class="card mb-3">
    
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel " >
+    <div id="carouselGamePage" class="carousel slide " data-bs-ride="carousel "  >
       <div class="carousel-inner">
           @foreach (var image in Model.game.Images)
 {
@@ -19,11 +19,11 @@
 }
       
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselGamePage" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselGamePage" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -35,14 +35,9 @@
             <small class="text-muted">Developed by: @Model.game.Maker</small>
         </p>
         <p class="card-text">@Model.game.Description</p>
-        <p></p>
-        <p></p>
-        <b>Trailer:</b>
-        <p></p>
-        <iframe width="560" height="315" src="@Model.game.Trailer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-           <p></p>
-           <p></p>
+       <iframe  id="game-trailer" src="@Model.game.Trailer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
 
         <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">

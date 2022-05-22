@@ -157,3 +157,25 @@ ul {
     background: linear-gradient(110deg, #252152 60%, #e9a8a6 60%);
 }
 
+#game-trailer {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width :560px;
+    height:315px;
+    margin-bottom:50px
+
+}
+.carousel-img{
+    
+    
+
+}
+#carouselGamePage{
+    margin-top:30px;
+    margin-bottom:30px
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
